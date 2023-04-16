@@ -31,7 +31,7 @@ import com.ApiRest.service.CiudadService;
 
 
 @RestController
-@RequestMapping("/rest")
+@RequestMapping("/restciu")
 @CrossOrigin(origins = "https://cyberelectronic.netlify.app")
 public class CiudadController {
 	

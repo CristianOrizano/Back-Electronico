@@ -32,7 +32,7 @@ import com.ApiRest.service.AdministradorService;
 import com.ApiRest.service.CiudadService;
 
 @RestController
-@RequestMapping("/rest")
+@RequestMapping("/restadm")
 @CrossOrigin(origins = "https://cyberelectronic.netlify.app")
 public class AdministradorController {
 	
