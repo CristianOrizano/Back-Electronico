@@ -32,7 +32,7 @@ import com.ApiRest.service.AdministradorService;
 import com.ApiRest.service.CiudadService;
 
 @RestController
-@RequestMapping("/rest/Admin")
+@RequestMapping("/rest")
 @CrossOrigin(origins = "http://localhost:4200")
 public class AdministradorController {
 	
