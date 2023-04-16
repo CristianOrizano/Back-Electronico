@@ -32,7 +32,7 @@ import com.ApiRest.service.AdministradorService;
 import com.ApiRest.service.CiudadService;
 
 @RestController
-@RequestMapping("/rest")
+@RequestMapping()
 @CrossOrigin(origins = "http://localhost:4200")
 public class AdministradorController {
 	
@@ -44,7 +44,7 @@ public class AdministradorController {
 	
 	
 	//metodo para listar admin
-	@GetMapping()
+	@GetMapping("/employees")
 	public List<Administrador> ListarAdmi(Model model) {
 		List<Administrador> lista= seradm.listadoActivos(1);
 
