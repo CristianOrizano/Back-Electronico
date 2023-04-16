@@ -33,7 +33,7 @@ import com.ApiRest.service.CiudadService;
 
 @RestController
 @RequestMapping("/rest")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://cyberelectronic.netlify.app")
 public class AdministradorController {
 	
 	@Autowired
