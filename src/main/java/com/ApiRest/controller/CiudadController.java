@@ -29,10 +29,9 @@ import com.ApiRest.entity.Estado;
 import com.ApiRest.service.AdministradorService;
 import com.ApiRest.service.CiudadService;
 
-
 @RestController
 @RequestMapping("/restciu")
-@CrossOrigin(origins = "https://cyberelectronic.netlify.app")
+
 public class CiudadController {
 	
 	
