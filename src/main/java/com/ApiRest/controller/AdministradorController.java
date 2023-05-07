@@ -1,7 +1,6 @@
 package com.ApiRest.controller;
 
 
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
@@ -33,8 +32,6 @@ import com.ApiRest.service.CiudadService;
 
 @RestController
 @RequestMapping("/restadm")
-@CrossOrigin(origins = "https://cyberelectronic.netlify.app")
-
 public class AdministradorController {
 	
 	@Autowired
@@ -57,6 +54,7 @@ public class AdministradorController {
 	@PostMapping()
 	public Administrador insertar(@RequestBody Administrador admin,Model model) {
 
+		
 		return seradm.guardar(admin);
 	}
 	
